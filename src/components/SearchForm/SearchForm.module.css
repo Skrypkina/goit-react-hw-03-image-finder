@@ -1,0 +1,48 @@
+/* Стили компонента SearchForm */
+.searchForm {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: honeydew;
+  display: block;
+  width: 100%;
+  padding: 16px;
+  font: inherit;
+  font-size: 16px;
+  border-radius: 2px;
+  outline: none;
+  margin-bottom: 50px;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+}
+.button {
+  padding: 8px 16px;
+  border-radius: 3px;
+  background-color: #3884ff;
+  transition: all 200ms ease;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  min-width: 180px;
+  position: relative;
+  left: 50%;
+  margin-bottom: 50px;
+  margin-left: 120px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #1f65d6;
+}
